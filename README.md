@@ -4,7 +4,7 @@
 ## Hands-on básico
 
 - [x] Sprint 0
-- [ ] Sprint 1
+- [x] Sprint 1
 
 ## Big Picture
 ![big picture](./big-picture.png)

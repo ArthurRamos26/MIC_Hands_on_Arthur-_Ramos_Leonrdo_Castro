@@ -6,6 +6,7 @@
 
 - [x] Sprint 0
 - [x] Sprint 1
+- [ ] Sprint 2
 
 ## Organograma
 ![organograma](./Organograma.png)
@@ -24,7 +25,7 @@ const int ledPin = 13;   // Pino do LED
 const int buzzerPin = 12; // Pino do Buzzer
 
 // Definindo o limite de inclinação (em graus)
-const float angleThreshold = 10.0;
+const float angleThreshold = 30.0; //Inlinação acima de 20-30 graus pode sobrecarregar o pescoço por exemplo
 
 void setup() {
   Serial.begin(115200);
@@ -67,7 +68,7 @@ void loop() {
   Serial.println(angleY);
 
   // Lógica para verificar postura
-  if (abs(angleX) > angleThreshold || abs(angleY) > angleThreshold) {
+  if (abs(angleY) > (angleThreshold + 90)) {
     // Postura incorreta
     digitalWrite(ledPin, HIGH); // Ativa o LED
     digitalWrite(buzzerPin, HIGH); // Ativa o Buzzer
@@ -79,8 +80,9 @@ void loop() {
     Serial.println("Postura correta!");
   }
   
-  delay(500); // Atraso de 500ms antes da próxima leitura
+  delay(1000); // Atraso de 1000ms antes da próxima leitura
 }
+
 ```
 
 ## Repositório

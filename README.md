@@ -6,7 +6,7 @@
 
 - [x] Sprint 0
 - [x] Sprint 1
-- [ ] Sprint 2
+- [x] Sprint 2
 
 ## Organograma
 ![organograma](./Organograma.png)

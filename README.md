@@ -2,17 +2,63 @@
 
 **Componentes**: [Leonardo Castro](https://github.com/thetwelvedev) e [Arthur Ramos](https://github.com/ArthurRamos26)
 
+## Sumário
+
+- [ MIC\_Hands\_on\_Arthur\_Ramos\_Leonardo\_Castro](#-mic_hands_on_arthur_ramos_leonardo_castro)
+  - [Sumário](#sumário)
+  - [Hands-on básico](#hands-on-básico)
+  - [Projeto Montado](#projeto-montado)
+  - [Artefatos](#artefatos)
+      - [Repositório](#repositório)
+      - [Slide do Pitch](#slide-do-pitch)
+      - [Plano de Teste](#plano-de-teste)
+      - [Big Picture](#big-picture)
+      - [Diagrama Esquemático das Conexões e componentes do projeto](#diagrama-esquemático-das-conexões-e-componentes-do-projeto)
+      - [Documento de Definição de Pronto(DoD)](#documento-de-definição-de-prontodod)
+      - [Imagens do Trello com o projeto finalizado](#imagens-do-trello-com-o-projeto-finalizado)
+      - [Documento de requesitos Funcionais](#documento-de-requesitos-funcionais)
+  - [Organograma](#organograma)
+  - [Código do Circuito](#código-do-circuito)
+
+
 ## Hands-on básico
 
 - [x] Sprint 0
 - [x] Sprint 1
 - [x] Sprint 2
+- [ ] Pitch do projeto
+
+## Projeto Montado
+![circuito](./Imagens/circuito.jpeg)
+
+## Artefatos
+
+#### Repositório
+**Link**: https://github.com/ArthurRamos26/MIC_Hands_on_Arthur_Ramos_Leonardo_Castro
+
+#### Slide do Pitch
+[Acesse aqui](./Artefatos/Slide%20Pitch.pdf)
+
+#### Plano de Teste
+[Acesse aqui](./Artefatos/plano_de_teste_equipe_09.pdf)
+
+#### Big Picture
+![big picture](./Imagens/big-picture.png)
+
+#### Diagrama Esquemático das Conexões e componentes do projeto
+[Acesse aqui](./Artefatos/Diagrama%20Esquemático%20das%20Conexões_Equipe_09.pdf)
+
+#### Documento de Definição de Pronto(DoD)
+[Acesse aqui](./Artefatos/Definição%20de%20Pronto%20(DoD)_equipe_09.pdf)
+
+#### Imagens do Trello com o projeto finalizado
+[Acesse aqui](./Artefatos/Trello%20Finalizado_Equipe_09.pdf)
+
+#### Documento de requesitos Funcionais
+[Acesse aqui](./Artefatos/Requisitos_Funcionais_equipe_09.pdf)
 
 ## Organograma
-![organograma](./Organograma.png)
-
-## Big Picture
-![big picture](./big-picture.png)
+![organograma](./Imagens/Organograma.png)
 
 ## Código do Circuito
 ```C
@@ -84,6 +130,3 @@ void loop() {
 }
 
 ```
-
-## Repositório
-**Link**: https://github.com/ArthurRamos26/MIC_Hands_on_Arthur_Ramos_Leonardo_Castro
